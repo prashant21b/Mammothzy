@@ -1,36 +1,62 @@
-This is a [Next.js](https://nextjs.org) project bootstrapped with [`create-next-app`](https://nextjs.org/docs/app/api-reference/cli/create-next-app).
+# Mammothzy: The Next.js App
 
-## Getting Started
+## Project Overview
+Mammothzy is a SaaS platform designed to help HR professionals and team leaders book engaging activities for their teams. This project is a form-based Next.js application that allows users to create a new activity entry by filling out a multi-step form.
 
-First, run the development server:
+## Tech Stack
+- **Programming Language**: TypeScript
+- **Framework**: Next.js
+- **Form Handling**: React Hook Form
+- **Styling**:  CSS
+- **State Management**: React Context API
 
-```bash
-npm run dev
-# or
-yarn dev
-# or
-pnpm dev
-# or
-bun dev
-```
+## Features
 
-Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
+### 1. Multi-Page Form with Tabs
+- Users fill out activity details in a structured, tabbed layout.
+- Two tabs: **Activity Details** and **Location Details**.
+- Navigation is restricted unless required fields are correctly filled.
 
-You can start editing the page by modifying `app/page.tsx`. The page auto-updates as you edit the file.
+### 2. Persistent Form Data
+- Form data is retained when switching between steps.
 
-This project uses [`next/font`](https://nextjs.org/docs/app/building-your-application/optimizing/fonts) to automatically optimize and load [Geist](https://vercel.com/font), a new font family for Vercel.
+### 3. Pixel-Perfect Design
+- The UI follows the provided Figma design precisely.
 
-## Learn More
+### 4. Form Submission & Reset
+- On successful submission:
+  - The collected form data is logged to the console.
+  - A success modal is displayed.
+  - The form resets to its initial state.
 
-To learn more about Next.js, take a look at the following resources:
+## Installation
 
-- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
-- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+1. Clone the repository:
+   ```sh
+   git clone https://github.com/prashant21b/Mammothzy.git
+   ```
+2. Navigate into the project directory:
+   ```sh
+   cd Mammothzy
+   ```
+3. Install dependencies:
+   ```sh
+   npm install
+   ```
+4. Start the development server:
+   ```sh
+   npm run dev
+   ```
+5. Open your browser and visit `http://localhost:3000`.
 
-You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js) - your feedback and contributions are welcome!
+## Deployment
+The application is deployed on Vercel.
 
-## Deploy on Vercel
+Live Demo: [https://mammothzy-lyart.vercel.app/]
 
-The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+## Repository
+GitHub Repository: [ https://github.com/prashant21b/Mammothzy.git]
 
-Check out our [Next.js deployment documentation](https://nextjs.org/docs/app/building-your-application/deploying) for more details.
+## License
+This project is licensed under the MIT License.
+
